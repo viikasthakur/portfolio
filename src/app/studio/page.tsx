@@ -1,19 +1,22 @@
-'use client'
-import { NextPage } from "next";
-import {IoIosMenu} from 'react-icons/io'
-import { useToggleContext } from "../Context";
+'use client';
+import { NextPage } from 'next';
+import { IoIosMenu } from 'react-icons/io';
+import { useToggleContext } from '@/context';
 
 interface ContextType {
-  isOpen: boolean,
-  handleToggle:()=>void
+  isOpen: boolean;
+  handleToggle: () => void;
 }
 
 const StudioPage: NextPage = () => {
-  const { isOpen,handleToggle } = useToggleContext() as ContextType;
+  const { isOpen, handleToggle } = useToggleContext() as ContextType;
   return (
     <div className="bg-[#050505] min-h-screen">
       <div className="sticky top-0  backdrop-blur-lg h-12 flex items-center gap-x-4  p-4">
-        <div className=" hover:bg-white  h-8 w-8 hover:bg-opacity-5 flex justify-center items-center   rounded-md cursor-pointer  sm:hidden " onClick={handleToggle}>
+        <div
+          className=" hover:bg-white  h-8 w-8 hover:bg-opacity-5 flex justify-center items-center   rounded-md cursor-pointer  sm:hidden "
+          onClick={handleToggle}
+        >
           <IoIosMenu className="text-white h-5 w-5 " />
         </div>
 
@@ -26,7 +29,6 @@ const StudioPage: NextPage = () => {
       </div>
     </div>
   );
-
 };
 
 export default StudioPage;

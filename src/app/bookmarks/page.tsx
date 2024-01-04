@@ -1,7 +1,7 @@
-"use client";
-import { NextPage } from "next";
-import { IoIosMenu } from "react-icons/io";
-import { useToggleContext } from "../Context";
+'use client';
+import { NextPage } from 'next';
+import { IoIosMenu } from 'react-icons/io';
+import { useToggleContext } from '@/context';
 
 interface ContextType {
   isOpen: boolean;

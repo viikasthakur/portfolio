@@ -27,7 +27,7 @@ export default function Home() {
         <div className="flex flex-col my-20">
           <div className=" flex flex-col  gap-y-4  text-[#737373]  text-base font-normal cursor-default">
             <p>
-              Hey, I'm Vikas. ux designer and{' '}
+              Hey, I&#39;m Vikas. ux designer and{' '}
               <span className="  text-blue-700"> software tinkerer</span> based
               in India.{' '}
             </p>
