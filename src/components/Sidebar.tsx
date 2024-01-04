@@ -24,7 +24,7 @@ interface ContextType {
 function Sidebar() {
   const pathname = usePathname();
   const router = useRouter();
-  const handleNavigation = (path) => {
+  const handleNavigation = (path: string) => {
     router.push(path);
     handleToggle();
   };
