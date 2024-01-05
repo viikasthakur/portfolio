@@ -25,7 +25,7 @@ const Stack = () => {
 
           <h2 className=" font-bold text-sm  text-white  ">Stack</h2>
         </div>
-        <div className=" flex flex-col  space-y-1   px-4 py-4 ">
+        <div className=" flex flex-col  space-y-1   px-2 sm:px-4 py-4 ">
           {Data.stack.map(({ name, img, href }) => (
             <a
               target="_blank"

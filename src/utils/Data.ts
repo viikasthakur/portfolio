@@ -44,7 +44,7 @@ export const Data = {
 
     {
       name: 'TailwindCSS',
-      img: '/assets/TailwindCSS.png',
+      img: '/assets/TailwindCSS.svg',
       href: 'https://tailwindcss.com/',
     },
     {
