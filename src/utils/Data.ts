@@ -95,4 +95,36 @@ export const Data = {
       href: 'https://open.spotify.com/',
     },
   ],
+  bookmarks: [
+    {
+      name: 'My 90s TV',
+      href: 'https://my90stv.com/',
+      link: 'my90stv.com',
+    },
+    {
+      name: 'roadmap.sh',
+      href: 'https://roadmap.sh/',
+      link: 'roadmap.sh',
+    },
+    {
+      name: 'PDF24 Tools',
+      href: 'https://tools.pdf24.org/',
+      link: 'pdf24.org',
+    },
+    {
+      name: 'Patatap',
+      href: 'https://patatap.com/',
+      link: 'patatap.com',
+    },
+    {
+      name: '29a.ch',
+      href: 'https://29a.ch/sandbox/2011/neonflames/',
+      link: '29a.ch',
+    },
+    {
+      name: 'Excalidraw',
+      href: 'https://excalidraw.com/',
+      link: 'excalidraw.com',
+    },
+  ],
 };

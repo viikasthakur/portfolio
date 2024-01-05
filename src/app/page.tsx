@@ -41,8 +41,8 @@ export default function Home() {
             </p>
 
             <p>
-              I feel really fullfilled when I am allowed to add in really fine
-              details to my workwith genuine interest & emotion
+              I feel really full filled when I am allowed to add in really fine
+              details to my work with genuine interest & emotion
             </p>
           </div>
           <button className=" mt-10 border  border-gray-600 rounded-lg px-4 py-2 self-start text-sm  font-medium  text-white leading-4 bg-white bg-opacity-10">
