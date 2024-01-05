@@ -25,14 +25,14 @@ const Stack = () => {
 
           <h2 className=" font-bold text-sm  text-white  ">Stack</h2>
         </div>
-        <div className=" flex flex-col  space-y-1 px-1 sm:px-4 py-4 ">
+        <div className=" flex flex-col  space-y-1   px-4 py-4 ">
           {Data.stack.map(({ name, img, href }) => (
             <a
               target="_blank"
               rel="noopener noreferrer"
               href={href}
               key={name}
-              className="flex items-center gap-2 cursor-pointer hover:bg-[#404040] px-6  py-2  rounded-xl "
+              className="flex items-center gap-5 cursor-pointer hover:bg-[#404040] px-6  py-2  rounded-xl "
             >
               <Image
                 src={img}
