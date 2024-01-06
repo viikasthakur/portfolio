@@ -1,6 +1,7 @@
 'use client';
 import { useToggleContext } from '@/context';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import { GrLocation } from 'react-icons/gr';
 import { IoIosMenu } from 'react-icons/io';
 
@@ -11,10 +12,26 @@ interface ContextType {
 
 export default function Home() {
   const { isOpen, handleToggle } = useToggleContext() as ContextType;
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll);
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
   return (
     <div className='className="flex flex-col bg-[#050505]      '>
       <div
-        className={`sticky top-0 z-10   bg-white  bg-opacity-10 backdrop-blur-lg  h-12 border-b border-gray-900 flex items-center px-4`}
+        className={`sticky top-0 z-10   bg-white    ${
+          scrolled ? 'bg-opacity-10' : 'bg-opacity-0'
+        } bg-opacity-10 backdrop-blur-lg  h-12 border-b border-gray-900 flex items-center px-4`}
       >
         <div
           className=" hover:bg-white  h-8 w-8 hover:bg-opacity-5 flex justify-center items-center   rounded-md cursor-pointer sm:hidden "
