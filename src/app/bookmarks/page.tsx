@@ -35,7 +35,7 @@ const BookmarksPage: NextPage = () => {
               rel="noopener noreferrer"
               className=" space-y-1 cursor-pointer hover:bg-[#404040] px-6  py-2  rounded-xl"
             >
-              <span>{name}</span>
+              <span className=" text-white">{name}</span>
               <div className="flex gap-1  text-[#737373]">
                 <IoIosLink />
                 <span className="  text-xs">{link}</span>

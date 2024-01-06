@@ -97,19 +97,46 @@ export const Data = {
   ],
   bookmarks: [
     {
-      name: 'My 90s TV',
-      href: 'https://my90stv.com/',
-      link: 'my90stv.com',
+      name: 'A guide to wealth & happiness',
+      href: 'https://www.navalmanack.com/',
+      link: 'navalmanack.com',
     },
     {
-      name: 'roadmap.sh',
+      name: 'Pessimists Archive',
+      href: 'https://pessimistsarchive.org/',
+      link: 'pessimistsarchive.org',
+    },
+
+    {
+      name: 'Atomic Habits',
+      href: 'https://jamesclear.com/atomic-habits',
+      link: 'jamesclear.com',
+    },
+    {
+      name: 'Now I Know',
+      href: 'https://nowiknow.com/',
+      link: 'nowiknow.com',
+    },
+    {
+      name: 'Greatist',
+      href: 'https://greatist.com/newsletter',
+      link: 'greatist.com',
+    },
+    {
+      name: 'Growth.Design',
+      href: 'https://growth.design/',
+      link: 'growth.design',
+    },
+
+    {
+      name: 'Roadmap.sh',
       href: 'https://roadmap.sh/',
       link: 'roadmap.sh',
     },
     {
-      name: 'PDF24 Tools',
-      href: 'https://tools.pdf24.org/',
-      link: 'pdf24.org',
+      name: 'My 90s TV',
+      href: 'https://my90stv.com/',
+      link: 'my90stv.com',
     },
     {
       name: 'Patatap',
@@ -120,11 +147,6 @@ export const Data = {
       name: '29a.ch',
       href: 'https://29a.ch/sandbox/2011/neonflames/',
       link: '29a.ch',
-    },
-    {
-      name: 'Excalidraw',
-      href: 'https://excalidraw.com/',
-      link: 'excalidraw.com',
     },
   ],
 };

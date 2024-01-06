@@ -29,9 +29,9 @@ export default function Home() {
   return (
     <div className='className="flex flex-col bg-[#050505]      '>
       <div
-        className={`sticky top-0 z-10   bg-white    ${
+        className={`sticky top-0 z-10   bg-white ${
           scrolled ? 'bg-opacity-10' : 'bg-opacity-0'
-        } bg-opacity-10 backdrop-blur-lg  h-12 border-b border-gray-900 flex items-center px-4`}
+        }  backdrop-blur-lg  h-12 border-b border-gray-900 flex items-center px-4`}
       >
         <div
           className=" hover:bg-white  h-8 w-8 hover:bg-opacity-5 flex justify-center items-center   rounded-md cursor-pointer sm:hidden "
