@@ -84,16 +84,6 @@ export const Data = {
       img: '/assets/Figma.jpg',
       href: 'https://www.figma.com/',
     },
-    {
-      name: 'ChatGPT',
-      img: '/assets/chatgpt.svg',
-      href: 'https://chat.openai.com',
-    },
-    {
-      name: 'Spotify',
-      img: '/assets/Spotify.jpg',
-      href: 'https://open.spotify.com/',
-    },
   ],
   bookmarks: [
     {
